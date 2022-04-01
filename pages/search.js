@@ -2,7 +2,7 @@ import Head from "next/head";
 import React from "react";
 import { useRouter } from "next/router";
 import SearchHeader from "../components/SearchHeader";
-import response from "../response";
+import response from "../Response";
 import SearchResults from "../components/SearchResults";
 
 function Search({ results }) {
